@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="recipe">
+      <h1 class="recipe__header">Easy Chicken Ramen</h1>
+
+      <div class="recipe__content">
+        <img class="six-dots" src="./assets/6dots.svg">
+        <p >This Easy Chicken Ramen can be made at home in about 30 minutes! A flavorful broth with chicken and noodles, and don't forget the ramen egg!</p>
+      </div>
+    </div>
+
+    <img class="dish-pic" 
+        src="./assets/ramen-mobile.jpg" 
+        alt="Chicken ramen with an egg" 
+        srcset="./assets/ramen-desktop.jpg 1920w, ./assets/ramen-mobile.jpg 640w"
+        sizes="(min-width: 600px) 1920w, 640w">
+
+    <ul class="detail">
+      <li class="detail__qty">
+        <i class="fas fa-utensils"></i>
+        <span class="eta">
+          <p class="eta__type">yields</p>
+          <p>4 servings</p>
+        </span>
+      </li>
+      <li class="detail__qty">
+        <i class="far fa-clock"></i>
+        <span class="eta">
+          <p class="eta__type">prep time</p>
+          <p>10 minutes</p>
+        </span>
+      </li>
+      <li class="detail__qty">
+        <i class="far fa-clock"></i>
+        <span class="eta">
+          <p class="eta__type">cook time</p>
+          <p>30 minutes</p>
+        </span>
+      </li>
+      <li class="detail__qty">
+        <i class="far fa-clock"></i>
+        <span class="eta">
+          <p class="eta__type">total time</p>
+          <p>40 minutes</p>
+        </span>
+      </li>
+    </ul>
+
+    <div class="ingredients">
+      <h2 class="ingre__header">Ingredients</h2>
+
+      <h3>For The Soup</h3>
+      <ul class="ingre__list">
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 tablespoon <strong>oil</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 <strong>onion</strong>, sliced</span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 tablespoon <strong>fresh grated ginger root</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>4 <strong>garlic cloves</strong>, pressed or finely minced</span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 tablespoon <strong>chili garlic sauce</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>2 tablespoons <strong>oyster sauce</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 tablespoon <strong>fish sauce</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1/2 cup <strong>low sodium soy sauce</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1/4 cup <strong>rice vinegar</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>4 ounces <Strong>shiitake mushrooms</Strong>, stems removed and sliced</span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1/2 - 3/4 pounds <strong>baby bok choy, sliced into quarters lengthwise</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 pound <strong>boneless skinless chicken thighs</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>4 cups <strong>low sodium chicken broth</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1 cup <strong>water</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1-2 packages <strong>fresh yakisoba noodles*</strong>, one package is about 7 ounces. Use two packages if you like lots of noodles. Fresh noodles are usually found in the produce section of the grocery store</span>
+          </label>
+        </li>
+      </ul>
+
+      <h3>For The Ramen Egg**</h3>
+      <ul class="ingre__list">
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>4 <strong>eggs</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>1/4 cup <strong>rice vinegar</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span>3/4 cup <strong>water</strong></span>
+          </label>
+        </li>
+      </ul>
+
+      <h3>Additional Toppings (Optional)</h3>
+      <ul class="ingre__list">
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span><strong>sliced green onion</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span><strong>cilantro</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span><strong>chili garlic sauce</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span><strong>sesame seeds</strong></span>
+          </label>
+        </li>
+        <li>
+          <label class="ingre__item">
+            <input class="sr-only" type="checkbox">
+            <span class="checkbox"></span>
+            <span><strong>lime wedges</strong></span>
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <div class="instructions">
+      <h1>Instructions</h1>
+
+      <h3>To Prepare The Ramen Egg:</h3>
+      <ul class="instr__list">
+        <li class="instr__step">
+          <span class="instr__label"><span>1</span></span>
+          <span class="instr__info">Whisk together the 1/4 cup of soy sauce, 1/4 cup of rice vinegar and 3/4 cup water, set aside.</span>
+        </li>
+        <li class="instr__step">
+          <span class="instr__label"><span>2</span></span>
+          <span class="instr__info">Prepare an ice bath by filling a bowl with ice and water.</span>
+        </li>
+        <li class="instr__step">
+          <span class="instr__label"><span>3</span></span>
+          <span class="instr__info">Bring a pot of water to boil (make sure there is enough water to cover the eggs). When boiling, carefully lower the eggs into the water using a slotted spoon or spider. Reduce heat if necessary to keep the water just barely boiling. Cook for 7 minutes, then remove from pot and place eggs in the ice bath. Leave in the ice bath for 3 minutes. Remove from ice bath and gently peel (egg will be soft). Place peeled eggs in the marinade and make sure they are completely covered with the marinade. Leave in the marinade for several hours or overnight. If keeping longer, discard the marinade and store in the refrigerator up to 3 days. Reheat the egg in the ramen broth (don't leave in the broth very long before serving or the egg will overcook).</span>
+        </li>
+      </ul>
+
+      <h3>To Prepare The Noodles:</h3>
+      <ul class="instr__list">
+        <li class="instr__step">
+          <span class="instr__label">1</span>
+          <span class="instr__info">If using fresh noodles:</span>
+        </li>
+        <li class="instr__step">
+          <span class="instr__label">2</span>
+          <span class="instr__info">Bring a pot of water to a boil. When boiling, add the noodles and simmer for 3 minutes. Strain and rinse with cold water. Toss with just a little oil if necessary to keep them from sticking (mine already had a little oil on them, so I didn't need to). Set aside.</span>
+        </li>
+        <li class="instr__step">
+          <span class="instr__label">3</span>
+          <span class="instr__info">(If using another type of noodle, follow package instructions)</span>
+        </li>
+      </ul>
+
+      <h3>To Prepare The Soup:</h3>
+      <ul class="instr__list">
+        <li class="instr__step">
+          <span class="instr__label">1</span>
+          <span class="instr__info">Heat a large pot or dutch oven over medium high heat. Add the onion and sauté until starting to soften, about <strong>5 minutes</strong>. Add the sliced mushrooms and sauté for another 2-3 minutes. Add the garlic and ginger and stir fry for about <strong>30 seconds</strong>, just until fragrant so that they don't burn. Add the chicken broth and 1 cup of water, soy sauce, rice vinegar, oyster sauce, fish sauce, chili garlic sauce, stir to combine. Bring back to a simmer.</span>
+        </li>
+        <li class="instr__step">
+          <span class="instr__label">2</span>
+          <span class="instr__info">When broth reaches a simmer, add the chicken thighs. Simmer for 15-20 minutes until chicken is cooked through and reaches a temperature of 165°F.</span>
+        </li>
+        <li class="instr__step">
+          <span class="instr__label">3</span>
+          <span class="instr__info">Remove the chicken and shred it with two forks. Add it back to the broth along with the bok choy and cook for 3-5 minutes. Remove from heat and serve.</span>
+        </li>
+      </ul>
+
+      <h3>To Serve The Ramen:</h3>
+      <ul class="instr__list">
+        <li class="instr__step">
+          <span class="instr__label">1</span>
+          <span class="instr__info">In a bowl, place a serving of noodles, then pour the soup over them. Top soup with ramen egg, sliced green onions, cilantro and sesame seeds if desired.</span>
+        </li>
+      </ul>
+    </div>
+
+    <p class="note"><strong>Note:</strong> *Keep the noodles seperate from the soup until just before serving. For leftovers, store the broth and noodles seperately.**The egg is optional but I really recommend it. If you don't have time to marinade the egg, you can just skip the marinading step. You can also serve with a fried or poached egg if you prefer.</p>
+  </div>
+  <a class="recipe-credit" href="https://www.foxandbriar.com/easy-chicken-ramen/">
+    source:<br>
+    https://www.foxandbriar.com/easy-chicken-ramen/
+  </a>
+  <footer>
+    <div class="footer-credit">
+      Herman Dardon @ DevChallenges.io
+    </div>
+  </footer>
+
+</body>
+</html>
