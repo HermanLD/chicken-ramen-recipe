@@ -1,15 +1,8 @@
 :root {
-  --heading-family: "Playfair Display", serif; /*! italic 400 700  */
-  --body-family: "Montserrat", sans-serif; /*! italic 400 500 600 700 */
+  --heading-family: "Playfair Display", serif; /*? italic 400 700  */
+  --body-family: "Montserrat", sans-serif; /*? italic 400 500 600 700 */
 
   --body-size: 16px;
-    /*? 8px = 0.5rem */
-    /*? 10px = 0.625rem */
-    /*? 14px = 0.875rem */
-    /*? 18px = 1.125rem */
-    /*? 24px = 1.5rem */
-    /*? 32px = 2rem */
-    /*? 48px = 3rem */
 
   --header-line-height: 32px; /*? --> 64px */
   --header-body-line-height: 12px; /*? --> 14px */
@@ -182,15 +175,15 @@ ul {
 }
 
 [type="checkbox"]:checked + .checkbox:after {
- content: "";
- display: inline-block;
- position: absolute;
- left: 7px;
- width: 5px;
- height: 10px;
- border-right: 3px solid var(--highlight);
- border-bottom: 3px solid var(--highlight);
- transform: rotate(45deg);
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 7px;
+  width: 5px;
+  height: 10px;
+  border-right: 3px solid var(--highlight);
+  border-bottom: 3px solid var(--highlight);
+  transform: rotate(45deg);
 }
 
 .instr__step {
@@ -268,7 +261,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr) auto;
     padding-top: 15px;
-    column-gap: 100px;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
   }
 
   .wrapper > * {
@@ -296,8 +290,6 @@ footer {
   .dish-pic {
     grid-column: span 3;
   }
-
-
 
   .ingredients {
     grid-row: 3;
