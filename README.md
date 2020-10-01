@@ -47,7 +47,8 @@ An online recipe for chicken ramen based on the DevChallenges Recipe Page challe
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
+- HTML
+- CSS
 
 ## How To Use
 
